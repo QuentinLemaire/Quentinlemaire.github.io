@@ -72,6 +72,9 @@ $(document).ready(function () {
         parallax();
     });
 
+     //animatedModal
+    //$("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+    
     // AOS
     AOS.init({
         duration: 1200,
@@ -103,8 +106,7 @@ $(document).ready(function () {
 
     });
 
-    //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
+
 
    
 });
