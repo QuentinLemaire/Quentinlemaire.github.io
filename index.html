@@ -31,6 +31,12 @@
             }
 
         </style>
+
+        <!-- test no cache-->
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache" content="no store" />
+		<meta http-equiv="Expires" content="-1" />
     </head>
 
 
@@ -236,10 +242,10 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo06" href="#modal-06" class="portfolio_item"> <img src="img/portfolio/010.jpg" alt="image" class="img-responsive" />
+                                <a id="demo06" href="#modal-06" class="portfolio_item"> <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
+                                            <div class="item_info"> <span>- Petit rat sur le la -</span> <em>Photography</em> </div>
                                         </div>
                                     </div>
                                 </a>
@@ -248,19 +254,7 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo07" href="#modal-07" class="portfolio_item"> <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo08" href="#modal-08" class="portfolio_item"> <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
+                                <a id="demo07" href="#modal-07" class="portfolio_item"> <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
@@ -272,7 +266,19 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo09" href="#modal-09" class="portfolio_item"> <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
+                                <a id="demo08" href="#modal-08" class="portfolio_item"> <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 graphics ads">
+                                <a id="demo09" href="#modal-09" class="portfolio_item"> <img src="img/portfolio/09.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
@@ -520,6 +526,40 @@
         </div>
     </div>
 
+    <!--DEMO05-->
+        <div id="modal-06">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-06"> 
+                <i class="ion-close-round"></i>
+            </div>
+            
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+
+                <div class="container">
+                    <div class="portfolio-padding">
+                        <div class="col-md-8 col-md-offset-2">
+                                <h2>Test<br /> #5</h2>
+                                 <div class="h-50"></div>
+                                 <p>Amicitiam est Hoc est et paribus amicitiam ne quid Hoc terram amicitiam quae nec exiliter vera ut excidat plus voluntatibus illud autem non dubitatur quod cum esset aliquando. </p>
+                                 <p>Nec exigue ne ne vocare amicitia acceptorum in affluentior quid mihi Hoc plus congeratur quidem quid sententia et est terram.</p>
+                                 <br />
+                                 <br /> <img src="img/portfolio/06.png" alt="" class="img-responsive" />
+                                 <br />
+                                 <br />
+                                 <p>Amicitiam est Hoc est et paribus amicitiam ne quid Hoc terram amicitiam quae nec exiliter vera ut excidat plus voluntatibus illud autem non dubitatur quod cum esset aliquando.</p>
+                                 <p>Nec exigue ne ne vocare amicitia acceptorum in affluentior quid mihi Hoc plus congeratur quidem quid sententia et est terram.</p>
+                                 <br />
+                                 <br />
+                         </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
 
 
 
@@ -556,6 +596,9 @@
 
             //demo 05
             $("#demo05").animatedModal();
+
+             //demo 06
+            $("#demo06").animatedModal();
 
         </script> 
 
