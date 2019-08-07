@@ -37,13 +37,12 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', light ;
     font-size: 50px;
     line-height: 70px;
 }
 
 #Quentin {
-	font-family: 'Playfair Display', serif;
     font-size: 80px;
     margin-left:30vw;
 }
@@ -74,7 +73,7 @@ h4:before {
 ==================================================*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', regular ;
     font-size: 14px;
     line-height: 24px;
 }
@@ -629,11 +628,20 @@ a.active {
 }
 
 .modal-content h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', regular;
     font-size: 40px;
     line-height: 50px;
 }
 
+#btn-close-modal{
+    background: #fff;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#btn-close-modal:hover {
+    color:#FFB86F;
+}
 
 /* contact
 ==================================================*/
