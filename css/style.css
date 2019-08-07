@@ -38,7 +38,7 @@ font-family: 'Open Sans', sans-serif;
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 80px;
+    font-size: 50px;
     line-height: 70px;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .size-50 {
-    font-size: 80px;
+    font-size: 50px;
     line-height: 70px
 }
 
