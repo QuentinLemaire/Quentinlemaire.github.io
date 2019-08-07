@@ -53,7 +53,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #1247A2;
+    color: #FFB86F;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -65,7 +65,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #1247A2;
+    background: #FFB86F;
     top: 9px;
 }
 
@@ -318,7 +318,7 @@ a.active {
 
 /*.about-border {
     position: absolute;
-    border: 10px solid #1247A2;
+    border: 10px solid #FFB86F;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -485,7 +485,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #1247A2;
+    background-color: #FFB86F;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -508,7 +508,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #1247A2;
+    background-color: #FFB86F;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -543,9 +543,9 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #1247A2;
+    background-color: #FFB86F;
     padding: 5px 20px;
-    color: #1247A2;
+    color: #FFB86F;
     margin-top: 10px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
