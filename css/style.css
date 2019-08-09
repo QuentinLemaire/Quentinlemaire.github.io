@@ -97,10 +97,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(../img/home-bg-low.webp),
-                url(../img/home-bg-low.jpf);
-    background-size: cover;
-    height: 100vh;
     z-index: 10000
 }
 
