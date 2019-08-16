@@ -74,7 +74,7 @@ h4:before {
 
 body {
     font-family: 'Open Sans', regular ;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -289,7 +289,7 @@ a.active {
 
 #home {
     background: url(../img/home-bg-HD.webp),
-                url(../img/home-bg-HD.jpf);
+                url(../img/home-bg-HD.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -650,9 +650,21 @@ a.active {
 ==================================================*/
 #internship {
     padding: 100px 0;    
-    background: #f3f3f3
+    background: url("../img/intern-bg-HD.jpg");
+    background-size: cover;
+    color: #fff
+
 }
 
+#internship a {
+    color: #FFB86F
+
+}
+
+#internship a:hover {
+    color: #fff
+
+}
 
 
 /* contact
@@ -685,13 +697,6 @@ a.active {
     color: #FFB86F;
 }
 
-
-/* Responsive media queries
-==================================================*/
-#footer {
-    padding: 50px 0;    
-    background: #A1A1A1
-}
 
 
 
