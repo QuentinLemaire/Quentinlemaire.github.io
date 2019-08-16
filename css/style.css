@@ -645,12 +645,21 @@ a.active {
     color:#FFB86F;
 }
 
+
+/* internship
+==================================================*/
+#internship {
+    padding: 100px 0;    
+    background: #f3f3f3
+}
+
+
+
 /* contact
 ==================================================*/
 
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
 }
 
 
@@ -675,6 +684,15 @@ a.active {
 .social li a:hover {
     color: #FFB86F;
 }
+
+
+/* Responsive media queries
+==================================================*/
+#footer {
+    padding: 50px 0;    
+    background: #A1A1A1
+}
+
 
 
 /* Responsive media queries
