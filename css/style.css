@@ -289,7 +289,7 @@ a.active {
 
 #home {
     background: url(../img/home-bg-HD.webp),
-                url(../img/home-bg-HD.jpg);
+                url(../img/home-bg-HD.jpf);
     background-size: cover;
     height: 100vh;
 }
@@ -650,7 +650,8 @@ a.active {
 ==================================================*/
 #internship {
     padding: 100px 0;    
-    background: url("../img/intern-bg-HD.jpg");
+    background: url("../img/intern-bg-HD.webp"),
+                url("../img/intern-bg-HD.jpf");
     background-size: cover;
     color: #fff
 
