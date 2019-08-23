@@ -646,6 +646,9 @@ a.active {
     color:#FFB86F;
 }
 
+.portfolio em {
+    color: #ffffff;
+}
 
 /* internship
 ==================================================*/
