@@ -287,7 +287,8 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url("../img/home-bg.jpg");
+    background: url("../img/home-bg.jpf"),
+                url("../img/home-bg.webp");
     background-size: cover;
     height: 100vh;
 }
