@@ -334,7 +334,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #f3f3f3;
 }
 
 .experience-row {
@@ -655,11 +655,8 @@ a.active {
 /* internship
 ==================================================*/
 #internship {
-    padding: 100px 0;    
-    background: url("../img/intern-bg-HD.webp"),
-                url("../img/intern-bg-HD.jpf");
-    background-size: cover;
-    color: #fff
+    padding: 100px 0;
+    background: #f3f3f3;
 
 }
 
