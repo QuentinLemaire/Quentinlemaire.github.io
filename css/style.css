@@ -46,11 +46,12 @@ h1 {
     line-height: 100%;
     color: #000;
      font-family: 'Playfair Display';
+     margin-bottom: 20%
 
 }
 
 #bouton {
-    font-size: 20px;
+    font-size: 80px;
     color: #000;
     font-family: 'Playfair Display';
 
