@@ -325,6 +325,10 @@ a.active {
     margin: 0 auto;
 }
 
+#bouton{
+    padding-left: 30vh
+}
+
 /*.about-border {
     position: absolute;
     border: 10px solid #FFB86F;
