@@ -885,6 +885,7 @@ body:after {
   .footer ul li {
     margin-bottom: 10px; }
   .footer a {
-    color: #888888; }
+    color: #888888;
+  }
     .footer a:hover {
       color: #000; }
