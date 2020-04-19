@@ -592,7 +592,6 @@ body:after {
   background-repeat: no-repeat;
   background-position: top;
   background-position: center center;
-  overflow: hidden;
   position: relative; }
   .site-blocks-cover .lead {
     font-family: "Arbutus Slab", serif;
