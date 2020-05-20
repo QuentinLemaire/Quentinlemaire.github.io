@@ -758,7 +758,8 @@ body:after {
       transition: .3s all ease-in-out; }
   .item .item-wrap {
     display: block;
-    position: relative; }
+    position: relative; 
+    box-shadow: 0px 0px 8px #EDEDED; }
     .item .item-wrap:after {
       z-index: 2;
       position: absolute;
