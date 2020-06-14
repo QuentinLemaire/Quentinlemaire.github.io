@@ -569,10 +569,7 @@ body:after {
       color: #000000 !important;
       font-weight: bold; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background: #fff;
-    border-bottom: 1px solid transparent;
-    -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
-    box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1); }
+}
     .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
@@ -621,16 +618,8 @@ body:after {
     font-size: 3rem;
     font-family: "Playfair Display", serif; }
   .site-blocks-cover .img-face {
-    position: absolute;
-    left: +39%;
-    bottom: 0;
-    z-index: 1;
-    width: 100vh;
+    width: 100vw;
   }
-    @media (max-width: 991.98px) {
-      .site-blocks-cover .img-face {
-        right: -25%; } }
-
 .section-title {
   position: relative;
   padding-bottom: 20px; }
