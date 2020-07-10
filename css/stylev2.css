@@ -736,7 +736,7 @@ body:after {
     display: block;
     overflow: hidden;
     position: relative;
-    border-radius: 4px; }
+    border-radius: 0px; }
     .item a img {
       position: relative;
       -webkit-transform: scale(1);
@@ -748,7 +748,7 @@ body:after {
   .item .item-wrap {
     display: block;
     position: relative; 
-    box-shadow: 0px 0px 8px #EDEDED; }
+    box-shadow: 0px 0px 16px #EDEDED; }
     .item .item-wrap:after {
       z-index: 2;
       position: absolute;
