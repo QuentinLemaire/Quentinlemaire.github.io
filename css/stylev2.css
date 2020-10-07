@@ -727,6 +727,14 @@ body:after {
   transition-property: transform, opacity;
   transition-property: transform, opacity, -webkit-transform; }
 
+/* test*/
+
+.onglet {
+    display: block;
+    position: relative; 
+    box-shadow: 0px 0px 16px #EDEDED; }
+
+
 /* responsive media queries */
 .item {
   border: none;
